@@ -9,57 +9,60 @@ export const headData = {
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
+  title: 'Hey there, my name is',
+  name: 'Michael Horowitz',
+  subtitle: 'full-stack developer',
   cta: '',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  img: 'me.jpg',
+  paragraphOne:
+    'I am a Ssgt reserve tank gunner for the Israel Defense Forces from 2015-2018, and have a great passion for new technology and making all of our lives better.',
+  paragraphTwo: 'I am now a full-stack developer with experience in Ruby, Rails, JS, and React.js.',
+  resume:
+    'https://docs.google.com/document/d/1VcurUNTrm6ubK8BQ-uYLyaess3R6nUnK5lRXRxd7irU/edit?usp=sharing', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+
+    title: 'Fantasy NHL',
+    info:
+      'This application is ment to bring hockey fans together and see who is the better general manager. In the application users can create their own teams in a league with their friends, and add current players to their rosters and gain points based off their performances.',
+    // info2: '',
+    // url: '',
+    repo: 'https://github.com/mjh714/fantasy-nhl-frontend',
+    // repo: 'https://github.com/mjh714/Fantasy-NHL-backend',// if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+  // {
+  //   id: nanoid(),
+  //   // img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   // url: '',
+  //   repo: '', // if no repo, the button will not show up
+  // },
+  // {
+  //   id: nanoid(),
+  //   // img: 'project.jpg',
+  //   title: '',
+  //   info: '',
+  //   info2: '',
+  //   // url: '',
+  //   repo: '', // if no repo, the button will not show up
+  // },
 ];
 
 // CONTACT DATA
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'mjhorowitz714@yahoo.com',
 };
 
 // FOOTER DATA
@@ -67,28 +70,23 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
-    {
-      id: nanoid(),
-      name: 'codepen',
-      url: '',
+      name: 'Medium-blogs',
+      url: 'https://medium.com/@mjhorowitz714',
     },
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/michael-horowitz-4b36341b1/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/mjh714/',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
